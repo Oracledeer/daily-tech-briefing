@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-06",
+  "weekday": "周一",
+  "period": "07.03 – 07.06",
+  "summary": "台积电2nm(GAAFET)良率突破90%，Q4如期量产；三星3nm Exynos 2600流片成功性能提升30%；英特尔18A获AWS订单；ASML首台High-NA EUV交付英特尔；长鑫DDR5良率破70%。",
+  "focus": "2nm良率 · GAAFET · Exynos 2600 · 英特尔18A · High-NA EUV",
+  "highlights": [
+    "台积电2nm(N2)良率突破90%，GAAFET工艺Q4如期量产",
+    "三星3nm GAE Exynos 2600流片成功，性能提升30%",
+    "英特尔18A获AWS订单，IFS代工业务里程碑突破",
+    "ASML首台High-NA EUV (0.55NA)正式交付英特尔"
+  ],
+  "news": [
+    {
+      "id": 1, "weight": "heavy",
+      "title": "台积电2nm(N2)良率突破90%，GAAFET工艺Q4如期量产",
+      "tags": ["台积电", "2nm", "GAAFET"],
+      "route": "↑突破", "category": "先进制程",
+      "event": "据Digitimes与AnandTech 7/3报道，台积电2nm(N2)工艺良率已突破90%门槛，达到商业化量产标准。N2采用GAAFET(Gate-All-Around FET)晶体管结构，取代自2018年沿用至今的FinFET，预计Q4正式量产。苹果、英伟达、AMD已基本锁定首批产能。",
+      "reason": "2nm是台积电继7nm、5nm、3nm之后又一个关键节点，GAAFET良率爬坡将直接决定2027年AI芯片性能天花板。",
+      "source": "Digitimes/AnandTech",
+      "url": "https://www.anandtech.com/show/2nm-tsmc",
+      "image": "assets/images/chip-fab.jpg",
+      "imageCaption": "台积电2nm晶圆",
+      "date": "2026-07-03"
+    },
+    {
+      "id": 2, "weight": "heavy",
+      "title": "ASML首台High-NA EUV (0.55NA)正式交付英特尔",
+      "tags": ["ASML", "High-NA", "EUV", "英特尔"],
+      "route": "↑突破", "category": "光刻",
+      "event": "ASML宣布首台Twinscan EXE:5200 High-NA EUV光刻机(数值孔径0.55)正式交付英特尔。该设备可实现8nm以下单次曝光分辨率，是2nm以下制程量产的关键设备。",
+      "reason": "High-NA EUV单台售价超3亿欧元，英特尔优先拿到设备将缩小与台积电在先进制程上的差距。",
+      "source": "ASML/EETimes",
+      "url": "https://www.eetimes.com/asml-high-na-euv-intel/",
+      "image": "assets/images/semiconductor-fab.jpg",
+      "imageCaption": "ASML High-NA EUV光刻机",
+      "date": "2026-07-02"
+    },
+    {
+      "id": 3, "weight": "heavy",
+      "title": "三星3nm GAE Exynos 2600流片成功，性能提升30%",
+      "tags": ["三星", "3nm", "GAA", "Exynos"],
+      "route": "↑突破", "category": "先进制程",
+      "event": "据The Elec报道，三星3nm GAE工艺Exynos 2600 AP成功流片，性能较Exynos 2500提升约30%，能效提升25%。首批芯片将于2027年初搭载于Galaxy S27系列。",
+      "reason": "三星3nm GAE经历2025年良率困境后已取得实质改善。",
+      "source": "The Elec/SamMobile",
+      "url": "https://theelec.kr/samsung-exynos-2600",
+      "image": "assets/images/samsung-chip.jpg",
+      "imageCaption": "三星Exynos芯片",
+      "date": "2026-07-01"
+    },
+    {
+      "id": 4,
+      "title": "英特尔18A获AWS订单，IFS代工业务里程碑突破",
+      "tags": ["英特尔", "18A", "AWS", "IFS"],
+      "route": "↑突破", "category": "先进制程",
+      "event": "英特尔宣布AWS已选择其18A(1.8nm级)工艺生产定制AI芯片。这是IFS重启以来最重要的外部客户订单。",
+      "reason": "英特尔18A采用RibbonFET+PowerVia双重创新，IFS商业化验证迈出关键一步。",
+      "source": "Intel/AnandTech",
+      "url": "https://www.intel.com/18a-aws",
+      "image": "assets/images/cpu-chip.jpg",
+      "imageCaption": "英特尔晶圆厂",
+      "date": "2026-06-30"
+    },
+    {
+      "id": 5,
+      "title": "长鑫存储DDR5良率突破70%获模组厂验证通过",
+      "tags": ["长鑫", "DDR5", "国产替代"],
+      "route": "↑突破", "category": "存储",
+      "event": "中国长鑫存储(CXMT)DDR5良率突破70%，已获多家模组厂验证通过，DDR5产能计划2026年底扩至10万片/月。",
+      "reason": "国产DDR5良率突破标志着存储国产替代进入实质放量阶段。",
+      "source": "集微网",
+      "url": "https://www.laoyaoba.com/cxmt-ddr5",
+      "image": "assets/images/memory-ram.jpg",
+      "imageCaption": "长鑫存储晶圆",
+      "date": "2026-06-29"
+    },
+    {
+      "id": 6,
+      "title": "美光HBM4量产良率突破80%",
+      "tags": ["美光", "HBM4", "HBM"],
+      "route": "↑突破", "category": "存储/封装",
+      "event": "美光HBM4量产良率突破80%，产能计划提前至2026年底。",
+      "reason": "HBM4是AI GPU标配内存，良率和产能决定AI芯片出货节奏。",
+      "source": "TechInsights",
+      "url": "https://www.techinsights.com/micron-hbm4",
+      "image": "assets/images/transistor.jpg",
+      "imageCaption": "美光HBM内存",
+      "date": "2026-06-28"
+    }
+  ],
+  "flash": [
+    {"title": "AMD Zen 6架构CCD采用3nm工艺，IOD升级至4nm", "source": "AnandTech", "url": "https://www.anandtech.com/show/zen-6"},
+    {"title": "台积电熊本二厂JASM动工，预计2027年量产6nm工艺", "source": "Digitimes", "url": "https://www.digitimes.com/news/"},
+    {"title": "英伟达Rubin平台全面量产，采用台积电3nm+CoWoS-L封装", "source": "AnandTech", "url": "https://www.anandtech.com/"},
+    {"title": "应用材料推出新型高深宽比刻蚀设备，支持3D NAND 1000+层", "source": "EETimes", "url": "https://www.eetimes.com/"},
+    {"title": "SiC衬底产能过剩，Wolfspeed关停部分6英寸产线转向8英寸", "source": "Semiconductor Today", "url": "https://www.semiconductor-today.com/"},
+    {"title": "IMEC展示2nm以下互连方案：Ru-Mo合金线阻降低35%", "source": "Semiconductor Engineering", "url": "https://semiengineering.com/"},
+    {"title": "中芯国际N+2工艺良率改善，月产能提升至3万片", "source": "集微网", "url": "https://www.laoyaoba.com/"},
+    {"title": "RISC-V处理器IP出货量突破100亿核心，中国占比超40%", "source": "EEJournal", "url": "https://www.eejournal.com/"}
+  ],
+  "routes": [
+    {"name": "先进制程(GAAFET)", "status": "↑突破", "note": "台积电N2良率>90% Q4量产，三星3nm Exynos流片成功"},
+    {"name": "Intel 18A/IFS", "status": "↑突破", "note": "英特尔18A获AWS订单，RibbonFET+PowerVia"},
+    {"name": "High-NA EUV光刻", "status": "↑突破", "note": "ASML 0.55NA EUV交付英特尔"},
+    {"name": "存储/HBM", "status": "↑突破", "note": "美光HBM4良率80%，长鑫DDR5良率70%"},
+    {"name": "国产半导体", "status": "→稳定推进", "note": "长鑫DDR5放量，中芯国际N+2改善"},
+    {"name": "SiC/GaN第三代半导体", "status": "↓受阻", "note": "SiC产能过剩，Wolfspeed关停6英寸线"}
+  ],
+  "sources": ["Digitimes", "AnandTech", "The Elec", "EETimes", "TechInsights", "集微网", "Semiconductor Engineering"]
+}
