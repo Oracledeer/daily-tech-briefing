@@ -1,1 +1,138 @@
-{"date":"2026-07-06","weekday":"周一","period":"2026-07-03 ~ 2026-07-06","summary":"三星显示宣布未来10年投资100万亿韩元（约4,400亿元）在牙山打造OLED产业集群；韩国ETRI开发出单基板QD-OLED喷墨印刷工艺，有望大幅降低QD-OLED成本；KFC在南非旗舰店部署55英寸透明OLED自助点餐机，透明OLED商用场景再拓展。","focus":"三星显示百兆亿投资·QD-OLED单基板工艺·透明OLED商用落地·中国OLED份额逼近50%","highlights":["三星显示100万亿韩元（4,400亿元）10年期牙山OLED产业集群投资计划公布","韩国ETRI开发基于喷墨印刷的单基板QD-OLED工艺，可降低制造成本并提升分辨率","KFC在南非约翰内斯堡机场旗舰店部署55英寸透明OLED点餐自助机","LORDIN公开ZETPLEX蓝色磷光Pt掺杂剂分子结构，开始送样评估"],"news":[{"id":1,"weight":"heavy","title":"三星显示宣布未来10年投资100万亿韩元，在牙山打造下一代显示产业集群","tags":["三星显示","SDC","牙山","OLED","投资"],"route":"↑突破","category":"产业投资","event":"7月2日三星显示在忠清南道牙山园区宣布，未来10年投资100万亿韩元（约4,400亿元人民币）扩大OLED和下一代显示器生产，覆盖智能手机、IT设备、XR终端、车载显示、机器人及可穿戴全场景。该投资是三星集团140万亿韩元忠清地区投资计划的核心组成部分。","reason":"这是三星显示有史以来规模最大的单区域投资计划，标志着韩国将OLED产业作为国家战略重心的决心，将显著影响全球OLED产能格局。","source":"新浪财经/维科网显示","url":"https://finance.sina.com.cn/roll/2026-07-03/doc-inifpqkw3597895.shtml","image":"https://www.oled-info.com/sites/default/files/2024-11/Samsung-Display-OLED-production-hub-Asan-Korea.jpg","imageCaption":"三星显示牙山OLED生产基地","date":"2026-07-03"},{"id":2,"weight":"heavy","title":"韩国ETRI开发单基板QD-OLED喷墨印刷沉积工艺，可降低成本并提升分辨率","tags":["ETRI","QD-OLED","喷墨印刷","技术突破"],"route":"↑突破","category":"技术研发","event":"韩国电子通信研究院（ETRI）与Gosan Tech、Duksan Neolux合作，开发出基于喷墨印刷的单基板堆叠QD-OLED工艺。将OLED发光层与量子点层在同一基板上沉积，无需像三星显示现行工艺那样在两个基板上分别制作后再贴合，可简化流程、降低成本，并消除贴合对准对分辨率的限制。","reason":"若该技术实现产业化，将颠覆三星显示当前QD-OLED的双基板工艺路线，显著降低QD-OLED面板成本门槛，加速QD-OLED在大尺寸显示领域的渗透。","source":"OLED-Info","url":"https://www.oled-info.com/etri-researchers-develop-single-substrate-qd-oled-deposition-process","image":"https://www.oled-info.com/sites/default/files/inline-images/ETRI-single-substrate-stacked-QD-OLED.jpg","imageCaption":"ETRI单基板堆叠QD-OLED结构示意","date":"2026-07-02"},{"id":3,"weight":"heavy","title":"KFC在南非旗舰店测试55英寸透明OLED自助点餐机","tags":["KFC","透明OLED","商用显示","LGD"],"route":"→稳定推进","category":"商用落地","event":"KFC在约翰内斯堡机场附近新旗舰餐厅部署大型透明触摸OLED自助点餐机（推测为55英寸）。整套系统由南非PDF公司开发，采用单侧连接透明OLED，柔性触摸载体安装。餐厅还配备了LED幕墙用于得来速点餐和半圆形屋顶LED屏幕。","reason":"透明OLED在快餐连锁场景的首次大规模部署，标志着透明OLED从概念展示走向实际商业应用，为餐饮零售行业显示方案创新提供参考。","source":"OLED-Info","url":"https://www.oled-info.com/kfc-testing-use-transparent-oleds-south-africa","image":"https://www.oled-info.com/sites/default/files/2026-07/KFC-South-Africa-Transparent-OLED-Kiosk.jpg","imageCaption":"KFC南非旗舰店透明OLED自助点餐机","date":"2026-07-04"},{"id":4,"title":"LORDIN公开ZETPLEX蓝色磷光Pt掺杂剂分子结构，开始送样评估","tags":["LORDIN","ZETPLEX","蓝色磷光","材料"],"route":"↑突破","category":"材料技术","event":"LORDIN在同行评审论文中首次公开ZETPLEX铂（Pt）掺杂剂的分子结构。该材料可简化蒸镀工艺并提升器件寿命，公司已开始向OLED材料供应商和面板制造商发送评估样品。","reason":"蓝色磷光材料的效率和寿命一直是OLED产业的核心瓶颈，LORDIN的ZETPLEX方案若通过验证，可能成为突破蓝色OLED短板的关键材料路线。","source":"OLED-Info","url":"https://www.oled-info.com/lordin-discloses-molecular-structure-its-zetplex-blue-phosphorescent-pt-dopant","image":"https://www.oled-info.com/sites/default/files/2026-07/LORDIN-material-structure-scheme.jpg","imageCaption":"LORDIN ZETPLEX材料结构设计示意","date":"2026-07-03"},{"id":5,"title":"三星显示扩建牙山A4 G6 OLED产线，月增产1.5万片基板，总投资3~4万亿韩元","tags":["三星显示","A4","扩产","G6"],"route":"↑突破","category":"产能扩张","event":"三星显示确认扩建牙山A4第6代OLED生产线，利用既有洁净室空间新增月产1.5万片基板产能。设备投资分2026/2027两年执行，14台光刻设备由尼康供应，1台蒸镀设备由佳能特机提供，总投资约3~4万亿韩元（约133~177亿元）。","reason":"三星显示A3/A4产线利用率已达80~90%，苹果折叠屏iPhone、iPad mini等新品订单激增，此次扩产是满足大客户需求的必然之举。","source":"IT之家/CNMO","url":"https://www.ithome.com/0/970/680.htm","date":"2026-06-30"},{"id":6,"title":"三星电子最终决定不使用京东方AMOLED，S27旗舰系列将由三星显示独家供应","tags":["三星电子","BOE","S27","供应链"],"route":"↓受阻","category":"供应链","event":"三星电子此前与京东方洽谈为Galaxy S27基础款供应先进AMOLED面板，但最终决定不使用京东方产品，S27全系列将由三星显示独家供应。三星担心此举伤害三星显示品牌形象。","reason":"京东方此前已投入大量资源开发适配S27的OLED面板，此次被拒意味着其冲击三星旗舰手机供应链的努力再次受挫，凸显两大韩中面板巨头间的竞争与博弈。","source":"OLED-Info","url":"https://www.oled-info.com/samsung-decides-not-adopt-boes-amoleds-its-flagship-s27-smartphone-series-will","date":"2026-06-30"},{"id":7,"title":"传三星可能在2028年推出首款卷轴式OLED手机，展开可达10英寸","tags":["三星","卷轴屏","可卷曲OLED","2028"],"route":"→稳定推进","category":"产品规划","event":"韩媒报道称三星显示与三星电子就卷轴式可卷曲OLED面板供应进行深入讨论，三星电子考虑2028年推出首款可卷曲手机。展开后为10英寸440PPI 16:9显示屏，超出现有Z Fold7的8英寸内屏。","reason":"折叠屏之后，卷轴屏被视为智能手机形态的下一轮变革方向。三星若率先推出，将重新定义大屏便携终端的形态标准。","source":"OLED-Info","url":"https://www.oled-info.com/rumors-suggest-samsung-may-launch-its-first-rollable-oled-phone-2028","date":"2026-06-29"},{"id":8,"title":"京东方第8.6代AMOLED生产线（B16）在成都正式量产，总投资630亿元","tags":["京东方","BOE","8.6代","B16","量产"],"route":"↑突破","category":"产能建设","event":"6月17日京东方成都第8.6代AMOLED生产线正式量产并完成首批客户交付，设计月产能3.2万片2290mm×2620mm玻璃基板，是中国首条、全球首批量产的8.6代AMOLED产线，面向联想等十余家客户完成OLED产品首轮供货。","reason":"标志着中国在IT中尺寸高端OLED领域实现从技术突破到规模化量产的跨越，与三星显示8.6代线形成直接竞争，2026年成为8.6代OLED量产元年。","source":"科技日报/BOE官方","url":"https://www.stdaily.com/web/gdxw/2026-06/17/content_533819.html","date":"2026-06-17"}],"flash":[{"title":"Counterpoint：2025 Q2中国三大面板厂（京东方/维信诺/华星）占全球OLED出货38%，逼近韩国厂商份额","source":"Counterpoint Research","url":"https://www.perfectdisplay.com/news/chinese-manufacturers-oled-shipment-share-surges-in-q2-accounting-for-nearly-50-of-the-global-market"},{"title":"LGD在Computex 2026展示全球首款True Black 1000 OLED面板及27英寸5K 220PPI RGB-stripe OLED","source":"TFTCentral","url":"https://tftcentral.co.uk/news/lg-display-tease-the-first-true-black-1000-oled-panel-and-the-return-of-bfi-for-computex-2026"},{"title":"华硕ROG推出全球首款24.5英寸OLED电竞显示器Strix OLED XG259QWPG Ace，540Hz/0.02ms","source":"ASUS Pressroom","url":"https://press.asus.com/news/press-releases/asus-rog-computex-2026-new-displays-oled-proart-zenscreen"},{"title":"维信诺参股的合肥国显第8.6代ViP AMOLED生产线2025年6月封顶，全球首条无FMM技术产线","source":"新浪科技","url":"https://finance.sina.com.cn/tech/roll/2025-12-09/doc-inhaeiwh2879250.shtml"},{"title":"TCL华星t8项目第8.6++代印刷OLED生产线推进中，总投资约295亿元","source":"新浪科技","url":"https://finance.sina.com.cn/tech/roll/2025-12-09/doc-inhaeiwh2879250.shtml"},{"title":"Omdia：2025年OLED显示器市场增长74%，2026年将继续增长30%","source":"OLED-Info/Omdia","url":"https://www.oled-info.com/omdia-oled-monitor-market-grew-74-2025-and-will-continue-grow-30-2026"},{"title":"三星显示8.6代IT OLED线计划7月正式量产，初始月产能7500片基板","source":"东方财富","url":"https://wap.eastmoney.com/a/202606173774499378.html"}],"routes":[{"name":"QD-OLED","status":"↑突破","note":"ETRI开发单基板喷墨印刷工艺，有望降低QD-OLED制造成本并突破分辨率限制"},{"name":"透明OLED","status":"→稳定推进","note":"KFC南非旗舰店部署55英寸透明OLED点餐机，餐饮零售场景首次大规模商用"},{"name":"蓝色磷光材料","status":"↑突破","note":"LORDIN公开ZETPLEX Pt掺杂剂分子结构并开始送样，蓝色OLED寿命瓶颈有望突破"},{"name":"8.6代OLED","status":"↑突破","note":"京东方B16已量产，三星8.6代线即将量产，2026年成为8.6代OLED量产元年"},{"name":"可卷曲OLED","status":"→稳定推进","note":"三星显示与三星电子深入洽谈，目标2028年推出10英寸卷轴式手机"},{"name":"中国OLED产能","status":"↑突破","note":"2025 Q2中国三大厂全球出货份额达38%，全年中国OLED产能占比预计达49%"},{"name":"OLED IT面板","status":"↑突破","note":"Omdia预测OLED显示器2026年继续增长30%，IT应用成为新增长引擎"}],"sources":["OLED-Info","新浪财经","科技日报","IT之家","Counterpoint Research","TFTCentral","ASUS Pressroom","Display Daily"]}
+{
+  "date": "2026-07-06",
+  "weekday": "周一",
+  "period": "07.03 – 07.06",
+  "summary": "三星显示宣布未来10年投资100万亿韩元在牙山打造OLED产业集群；韩国ETRI开发单基板QD-OLED喷墨印刷工艺；KFC部署55英寸透明OLED自助点餐机。",
+  "focus": "三星显示百兆亿投资·QD-OLED单基板工艺·透明OLED商用落地",
+  "highlights": [
+    "三星显示100万亿韩元10年期牙山OLED产业集群投资计划公布",
+    "韩国ETRI开发基于喷墨印刷的单基板QD-OLED工艺",
+    "KFC在南非部署55英寸透明OLED点餐自助机",
+    "LORDIN公开ZETPLEX蓝色磷光Pt掺杂剂分子结构"
+  ],
+  "news": [
+    {
+      "id": 1, "weight": "heavy",
+      "title": "三星显示宣布未来10年投资100万亿韩元，在牙山打造下一代显示产业集群",
+      "tags": ["三星显示", "SDC", "OLED", "投资"],
+      "route": "↑突破", "category": "产业投资",
+      "event": "三星显示7月2日在忠清南道牙山园区宣布，未来10年投资100万亿韩元（约4,400亿元）扩大OLED和下一代显示器生产，覆盖智能手机、IT、XR、车载等全场景。",
+      "reason": "三星显示史上最大单区域投资，将显著影响全球OLED产能格局。",
+      "source": "新浪财经/维科网显示",
+      "url": "https://finance.sina.com.cn/roll/2026-07-03/doc-inifpqkw3597895.shtml",
+      "image": "assets/images/semiconductor-fab.jpg",
+      "imageCaption": "三星显示牙山OLED生产基地",
+      "date": "2026-07-03"
+    },
+    {
+      "id": 2, "weight": "heavy",
+      "title": "韩国ETRI开发单基板QD-OLED喷墨印刷沉积工艺，可降低成本并提升分辨率",
+      "tags": ["ETRI", "QD-OLED", "喷墨印刷"],
+      "route": "↑突破", "category": "技术研发",
+      "event": "韩国ETRI与Gosan Tech、Duksan Neolux合作，开发基于喷墨印刷的单基板堆叠QD-OLED工艺，将OLED与QD层在同一基板上沉积，无需双基板贴合，可简化流程降成本并提升分辨率。",
+      "reason": "若产业化，将颠覆三星显示当前QD-OLED双基板工艺路线。",
+      "source": "OLED-Info",
+      "url": "https://www.oled-info.com/etri-researchers-develop-single-substrate-qd-oled-deposition-process",
+      "image": "assets/images/qd-color.jpg",
+      "imageCaption": "ETRI单基板堆叠QD-OLED结构示意",
+      "date": "2026-07-02"
+    },
+    {
+      "id": 3, "weight": "heavy",
+      "title": "KFC在南非旗舰店测试55英寸透明OLED自助点餐机",
+      "tags": ["KFC", "透明OLED", "商用显示"],
+      "route": "→稳定推进", "category": "商用落地",
+      "event": "KFC在约翰内斯堡机场附近旗舰餐厅部署55英寸透明触摸OLED自助点餐机，配备LED幕墙和屋顶LED屏幕。",
+      "reason": "透明OLED在快餐连锁场景的首次大规模部署。",
+      "source": "OLED-Info",
+      "url": "https://www.oled-info.com/kfc-testing-use-transparent-oleds-south-africa",
+      "image": "assets/images/microled-display.jpg",
+      "imageCaption": "KFC南非旗舰店透明OLED自助点餐机",
+      "date": "2026-07-04"
+    },
+    {
+      "id": 4,
+      "title": "LORDIN公开ZETPLEX蓝色磷光Pt掺杂剂分子结构，开始送样评估",
+      "tags": ["LORDIN", "ZETPLEX", "蓝色磷光"],
+      "route": "↑突破", "category": "材料技术",
+      "event": "LORDIN首次公开ZETPLEX铂掺杂剂的分子结构，可简化蒸镀工艺并提升器件寿命，已开始向面板制造商送样。",
+      "reason": "蓝色磷光材料是OLED核心瓶颈，ZETPLEX若验证通过将成为关键突破。",
+      "source": "OLED-Info",
+      "url": "https://www.oled-info.com/lordin-discloses-molecular-structure-its-zetplex-blue-phosphorescent-pt-dopant",
+      "image": "assets/images/molecule-lab.jpg",
+      "imageCaption": "LORDIN ZETPLEX材料结构设计示意",
+      "date": "2026-07-03"
+    },
+    {
+      "id": 5,
+      "title": "三星显示扩建牙山A4 G6 OLED产线，月增产1.5万片基板",
+      "tags": ["三星显示", "A4", "扩产"],
+      "route": "↑突破", "category": "产能扩张",
+      "event": "三星显示扩建牙山A4第6代OLED产线，利用既有洁净室新增月产1.5万片基板产能，总投资3~4万亿韩元。",
+      "reason": "苹果折叠iPhone等新品订单激增，扩产是满足大客户需求的必然之举。",
+      "source": "IT之家/CNMO",
+      "url": "https://www.ithome.com/0/970/680.htm",
+      "image": "assets/images/oled-factory2.jpg",
+      "imageCaption": "三星显示A4产线",
+      "date": "2026-06-30"
+    },
+    {
+      "id": 6,
+      "title": "三星电子最终决定不使用京东方AMOLED，S27全系三星显示独家",
+      "tags": ["三星电子", "BOE", "S27"],
+      "route": "↓受阻", "category": "供应链",
+      "event": "三星电子此前与京东方洽谈为Galaxy S27供应AMOLED，但最终决定不用，全系由三星显示独家供应。",
+      "reason": "京东方冲击三星旗舰供应链再次受挫。",
+      "source": "OLED-Info",
+      "url": "https://www.oled-info.com/samsung-decides-not-adopt-boes-amoleds-its-flagship-s27-smartphone-series-will",
+      "image": "assets/images/samsung-chip.jpg",
+      "imageCaption": "三星Galaxy S27",
+      "date": "2026-06-30"
+    },
+    {
+      "id": 7,
+      "title": "传三星可能在2028年推出首款卷轴式OLED手机，展开可达10英寸",
+      "tags": ["三星", "卷轴屏", "可卷曲OLED"],
+      "route": "→稳定推进", "category": "产品规划",
+      "event": "三星显示与三星电子就卷轴式可卷曲OLED面板供应进行深入讨论，目标2028年推出，展开后为10英寸440PPI显示屏。",
+      "reason": "卷轴屏被视为折叠屏之后的下一个手机形态变革方向。",
+      "source": "OLED-Info",
+      "url": "https://www.oled-info.com/rumors-suggest-samsung-may-launch-its-first-rollable-oled-phone-2028",
+      "image": "assets/images/foldable-phone.jpg",
+      "imageCaption": "三星可卷曲OLED概念",
+      "date": "2026-06-29"
+    },
+    {
+      "id": 8,
+      "title": "京东方第8.6代AMOLED产线B16在成都正式量产",
+      "tags": ["京东方", "BOE", "8.6代", "B16"],
+      "route": "↑突破", "category": "产能建设",
+      "event": "6月17日京东方成都8.6代AMOLED产线正式量产，设计月产能3.2万片，是中国首条量产的8.6代AMOLED产线。",
+      "reason": "中国在IT中尺寸高端OLED领域实现规模化量产突破。",
+      "source": "科技日报/BOE官方",
+      "url": "https://www.stdaily.com/web/gdxw/2026-06/17/content_533819.html",
+      "image": "assets/images/wafer.jpg",
+      "imageCaption": "京东方B16产线",
+      "date": "2026-06-17"
+    }
+  ],
+  "flash": [
+    {"title": "Counterpoint：2025 Q2中国三大面板厂占全球OLED出货38%", "source": "Counterpoint Research", "url": "https://www.perfectdisplay.com/news/chinese-manufacturers-oled-shipment-share-surges-in-q2"},
+    {"title": "LGD展示全球首款True Black 1000 OLED面板及27英寸5K RGB-stripe OLED", "source": "TFTCentral", "url": "https://tftcentral.co.uk/news/lg-display-tease-the-first-true-black-1000-oled-panel"},
+    {"title": "华硕ROG推出24.5英寸540Hz OLED电竞显示器", "source": "ASUS Pressroom", "url": "https://press.asus.com/news/press-releases/asus-rog-computex-2026-new-displays-oled-proart-zenscreen"},
+    {"title": "维信诺第8.6代ViP AMOLED产线封顶，全球首条无FMM技术产线", "source": "新浪科技", "url": "https://finance.sina.com.cn/tech/roll/2025-12-09/doc-inhaeiwh2879250.shtml"},
+    {"title": "TCL华星t8印刷OLED产线推进中，总投资约295亿元", "source": "新浪科技", "url": "https://finance.sina.com.cn/tech/roll/2025-12-09/doc-inhaeiwh2879250.shtml"},
+    {"title": "Omdia：2025年OLED显示器市场增长74%", "source": "OLED-Info/Omdia", "url": "https://www.oled-info.com/omdia-oled-monitor-market-grew-74-2025"},
+    {"title": "三星显示8.6代IT OLED线计划7月量产", "source": "东方财富", "url": "https://wap.eastmoney.com/a/202606173774499378.html"}
+  ],
+  "routes": [
+    {"name": "QD-OLED", "status": "↑突破", "note": "ETRI开发单基板喷墨印刷工艺，有望降本提分辨率"},
+    {"name": "透明OLED", "status": "→稳定推进", "note": "KFC南非旗舰店部署55英寸透明OLED，首次大规模商用"},
+    {"name": "蓝色磷光材料", "status": "↑突破", "note": "LORDIN公开ZETPLEX分子结构并开始送样"},
+    {"name": "8.6代OLED", "status": "↑突破", "note": "京东方B16已量产，2026年成为8.6代OLED量产元年"},
+    {"name": "可卷曲OLED", "status": "→稳定推进", "note": "三星目标2028年推出10英寸卷轴式手机"},
+    {"name": "中国OLED产能", "status": "↑突破", "note": "中国三大厂全球出货份额达38%"},
+    {"name": "OLED IT面板", "status": "↑突破", "note": "OLED显示器2026年预计继续增长30%"}
+  ],
+  "sources": ["OLED-Info", "新浪财经", "科技日报", "IT之家", "Counterpoint Research", "TFTCentral", "ASUS Pressroom"]
+}
