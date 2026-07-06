@@ -46,7 +46,7 @@ img{max-width:100%;height:auto;display:block}
 .container{max-width:1160px;margin:0 auto;padding:0 20px}
 
 /* ——— Header ——— */
-.site-header{position:sticky;top:0;z-index:100;background:var(--glass);backdrop-filter:blur(32px) saturate(1.6);-webkit-backdrop-filter:blur(32px) saturate(1.6);border-bottom:1px solid var(--separator)}
+.site-header{position:sticky;top:0;z-index:100;background:var(--glass);backdrop-filter:blur(32px) saturate(1.6);-webkit-backdrop-filter:blur(32px) saturate(1.6);border-bottom:none}
 .site-header>.container{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:6px 20px;flex-wrap:wrap;max-width:1160px;margin:0 auto}
 .brand{display:flex;align-items:center;gap:10px}
 .brand-icon{width:26px;height:26px;background:var(--blue);border-radius:6px;color:#fff;font-size:14px;display:flex;align-items:center;justify-content:center}
@@ -59,7 +59,7 @@ img{max-width:100%;height:auto;display:block}
 .tab .tab-icon{font-size:12px}
 
 /* ——— Subtab ——— */
-.subtab-bar{background:rgba(255,255,255,0.4);backdrop-filter:blur(16px);border-bottom:1px solid var(--separator);display:none;padding:3px 0}
+.subtab-bar{background:rgba(255,255,255,0.4);backdrop-filter:blur(16px);border-bottom:1px solid var(--separator);display:none;padding:3px 0;margin-top:0}
 .subtab-bar.visible{display:block}
 .subtab-bar .container{display:flex;align-items:center;justify-content:space-between;gap:10px}
 .subtab-nav{display:flex;gap:1px}

@@ -11,10 +11,7 @@
 </head>
 <body>
 
-  <!-- ===== 粒子背景 ===== -->
-  <canvas id="bgCanvas"></canvas>
-
-  <!-- ===== 顶栏 ===== -->
+  <!-- ===== 顶部导航 ===== -->
   <header class="site-header" id="siteHeader">
     <div class="container">
       <div class="brand">
@@ -49,19 +46,22 @@
       </nav>
     </div>
     <!-- ===== 子Tab栏 ===== -->
-    <div class="subtab-bar" id="subtabBar">
-      <div class="container">
-        <nav class="subtab-nav" id="subtabNav"></nav>
-        <div class="date-selector">
-          <select id="dateSelect"></select>
-          <span class="weekday-tag" id="weekdayTag"></span>
-        </div>
-      </div>
-    </div>
+
   </header>
 
+  <!-- ===== 子Tab栏（独立于header）===== -->
+  <div class="subtab-bar" id="subtabBar">
+    <div class="container">
+      <nav class="subtab-nav" id="subtabNav"></nav>
+      <div class="date-selector">
+        <select id="dateSelect"></select>
+        <span class="weekday-tag" id="weekdayTag"></span>
+      </div>
+    </div>
+  </div>
+
   <!-- ===== 主内容 ===== -->
-  <main class="container" id="mainContent">
+  <main class="container" id="mainContent" style="margin-top:4px">
     <div class="loading" id="loadingIndicator">
       <div class="loader-ring"></div>
       <span>正在加载数据...</span>
