@@ -31,7 +31,7 @@ const DISPLAY_NEWS = {
         event:"据日经亚洲7/2援引知情人士消息，苹果已将首款折叠屏iPhone今年的生产准备目标从700万至800万部上调至约1000万部，上修幅度近30%。苹果同时为2026年下半年新机锁定了足够生产8000万部手机的零部件。三星显示已拿下苹果首款折叠iPhone OLED模块量产审批并开始初期出货。",
         reason:"苹果在存储芯片荒中逆势加单，供应链控制力是核心竞争力。折叠iPhone的OLED独家供应格局将强化三星显示的绝对优势。",
         source:"日经亚洲/IT之家", url:"https://finance.sina.com.cn/tech/digi/2026-07-02/doc-iniizyeu1636480.shtml",
-        image:"assets/images/foldable-phone.jpg",
+        image:"assets/images/phone-fold.jpg",
         imageCaption:"苹果折叠iPhone渲染概念图", date:"2026-07-02"},
 
       {id:2, weight:"heavy",
@@ -40,7 +40,7 @@ const DISPLAY_NEWS = {
         event:"洛图科技(RUNTO)7月最新数据显示，全球液晶电视面板价格自5月全线停涨、6月持平后，7月正式开启下行通道：32吋和43吋小尺寸下跌1美元，50吋至75吋中大型尺寸下跌2-3美元，85吋及以上超大尺寸下跌5-8美元。Q2高世代线整体稼动率已滑至约80%。",
         reason:"年初控产稳价预期被7月价格转跌打破。减产与降价并行揭示的是需求端疲软而非供给端收紧，Q3是检验面板厂定价纪律的关键窗口。",
         source:"洛图科技/TrendForce", url:"https://www.163.com/dy/article/JDA6H0BJ05118L5B.html",
-        image:"assets/images/lcd-panel.jpg",
+        image:"assets/images/lcd-tv.jpg",
         imageCaption:"LCD电视面板市场趋势", date:"2026-07-03"},
 
       // ===== 次重点（span4=宽 / span3=中 / span2=窄，交替排布）=====
@@ -50,7 +50,7 @@ const DISPLAY_NEWS = {
         event:"三星显示已正式确认牙山A4产线扩产计划，追加15,000片/月玻璃基板柔性OLED产能，总投资约25亿美元。2027年底前完成。",
         reason:"15K/月Gen 6产能对应约数百万部折叠手机面板，将巩固韩系在折叠OLED领域的绝对优势。",
         source:"OLED-Info/Digitimes", url:"https://www.oled-info.com/samsung-display-a4-line",
-        image:"assets/images/oled-factory.jpg",
+        image:"assets/images/phone-fold.jpg",
         imageCaption:"三星显示A4线扩产示意", date:"2026-07-02"},
 
       {id:4, weight:"secondary", span:"narrow",
@@ -59,7 +59,7 @@ const DISPLAY_NEWS = {
         event:"友达光电7月1日宣布新设一级研发平台创新研究院，统筹CPO光通信、AR眼镜及低轨卫星通讯天线等前瞻技术。",
         reason:"台系面板厂应对大陆8.6代OLED冲击的战略标杆。",
         source:"IT之家", url:"https://www.ithome.com/0/888/888.htm",
-        image:"assets/images/micro-led.jpg",
+        image:"assets/images/microled-display.jpg",
         imageCaption:"友达创新研究院", date:"2026-07-01"},
 
       {id:5, weight:"secondary", span:"medium",
@@ -68,7 +68,7 @@ const DISPLAY_NEWS = {
         event:"韩国电子通信研究院(ETRI)与Gosan Tech、Duksan Neolux合作，开发出基于喷墨打印的单基板QD-OLED沉积新工艺，可在同一基板上完成全部沉积，省去键合步骤。",
         reason:"单基板工艺若能量产，将大幅降低QD-OLED制造成本并提升分辨率上限。",
         source:"OLED-Info", url:"https://www.oled-info.com/etri-qd-oled",
-        image:"assets/images/qd-oled.jpg",
+        image:"assets/images/qd-color.jpg",
         imageCaption:"QD-OLED单基板工艺示意", date:"2026-07-02"},
 
       {id:6, weight:"secondary", span:"narrow",
@@ -77,7 +77,7 @@ const DISPLAY_NEWS = {
         event:"韩国LORDIN首次公开ZETPLEX铂掺杂蓝光磷光材料的分子结构。蓝光磷光如实现商用，可将蓝光效率提升至4倍。",
         reason:"UDC的铱系磷光专利垄断可能被铂系材料打破。",
         source:"OLED-Info", url:"https://www.oled-info.com/lordin-zetplex",
-        image:"assets/images/blue-oled.jpg",
+        image:"assets/images/molecule-lab.jpg",
         imageCaption:"蓝光磷光材料结构", date:"2026-07-03"},
 
       {id:7, weight:"secondary", span:"medium",
@@ -86,7 +86,7 @@ const DISPLAY_NEWS = {
         event:"京东方成都8.6代AMOLED产线B16按计划进行设备搬入，设计月产能3.2万片，总投资630亿元，预计2027年量产。",
         reason:"B16是大陆首条8.6代AMOLED产线，将直接挑战三星显示在IT OLED领域的领导地位。",
         source:"IT之家/集微网", url:"https://www.ithome.com/0/888/888.htm",
-        image:"assets/images/semiconductor-fab.jpg",
+        image:"assets/images/wafer.jpg",
         imageCaption:"京东方B16产线设备搬入", date:"2026-07-01"},
 
       // ===== 快讯 =====
@@ -148,7 +148,7 @@ const DISPLAY_PAPER = {
       ],
       source:"Nature Photonics (Nature)",
       url:"https://www.nature.com/nphoton/2026/blue-qled",
-      image:"assets/images/blue-oled.jpg",
+      image:"assets/images/science-lab.jpg",
       imageCaption:"钙钛矿量子点结构示意",
       date:"2026-06-28",
       attachments:[
@@ -177,7 +177,7 @@ const DISPLAY_PAPER = {
       ],
       source:"IEEE TED",
       url:"https://ieeexplore.ieee.org/document/2026-ltpo-tft",
-      image:"assets/images/transistor.jpg",
+      image:"assets/images/transistor-research.jpg",
       imageCaption:"双栅LTPO TFT结构示意",
       date:"2026-06-25",
       attachments:[
@@ -263,7 +263,7 @@ const AI_NEWS = {
         reason:"OpenAI用「顶级模型+限量预览」换取监管合作空间。",
         source:"OpenAI/新浪科技",
         url:"https://finance.sina.com.cn/tech/digi/2026-06-27/doc-inieuyie1636480.shtml",
-        image:"assets/images/ai-chip.jpg",
+        image:"assets/images/gpu-chip.jpg",
         imageCaption:"GPT-5.6模型能力对比", date:"2026-06-26"},
       {id:2, weight:"heavy",
         title:"SpaceX 600亿美元全股票收购Cursor母公司Anysphere",
@@ -273,7 +273,7 @@ const AI_NEWS = {
         reason:"AI Coding市场正经历前所未有的整合，Cursor被收购标志着赛道进入巨头博弈阶段。",
         source:"彭博/51CTO",
         url:"https://www.51cto.com/article/846611.html",
-        image:"assets/images/qd-oled.jpg",
+        image:"assets/images/robot-ai.jpg",
         imageCaption:"AI编程工具市场整合", date:"2026-06-16"},
       {id:3, weight:"secondary", span:"medium",
         title:"Anthropic致信国会指控阿里Qwen「史上最大蒸馏攻击」",
@@ -282,7 +282,7 @@ const AI_NEWS = {
         reason:"中美AI摩擦从硬件出口管制升级到模型能力盗用。",
         source:"CNBC/网易科技",
         url:"https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html",
-        image:"assets/images/datacenter.jpg",
+        image:"assets/images/datacenter2.jpg",
         imageCaption:"AI蒸馏攻击示意", date:"2026-06-24"},
       {id:4, weight:"secondary", span:"narrow",
         title:"白宫签署前沿AI行政令设立分级管理",
@@ -291,7 +291,7 @@ const AI_NEWS = {
         reason:"顶级模型被视为受监管的战略基础设施而非普通软件。",
         source:"白宫/Federal Register",
         url:"https://www.whitehouse.gov/presidential-actions/2026/06/",
-        image:"assets/images/datacenter.jpg",
+        image:"assets/images/circuit-board.jpg",
         imageCaption:"AI政策监管", date:"2026-06-28"},
       {id:5, weight:"secondary", span:"narrow",
         title:"Google Gemini 3.5 Pro延期至7月研究员持续外流",
@@ -309,7 +309,7 @@ const AI_NEWS = {
         reason:"硬件+数据+模型三件套同时进入工程化阶段，VLA路线小模型+大数据+物理先验成为新方向。",
         source:"艾邦机器人/字节Seed",
         url:"https://www.aibangbots.com/a/6824",
-        image:"assets/images/transistor.jpg",
+        image:"assets/images/robot-ai.jpg",
         imageCaption:"灵巧手机器人", date:"2026-06-29"}
     ],
     skills:[
@@ -348,7 +348,7 @@ const SEMICONDUCTOR_NEWS = {
         reason:"2nm是台积电继7nm、5nm、3nm之后的又一个关键工艺节点。GAAFET架构的良率爬坡速度将直接决定2027年AI芯片性能天花板。",
         source:"Digitimes/AnandTech",
         url:"https://www.anandtech.com/show/2nm-tsmc",
-        image:"assets/images/semiconductor-fab.jpg",
+        image:"assets/images/chip-fab.jpg",
         imageCaption:"台积电2nm晶圆", date:"2026-07-03"},
       {id:2, weight:"heavy",
         title:"ASML首台High-NA EUV (0.55NA) 正式交付英特尔",
@@ -366,7 +366,7 @@ const SEMICONDUCTOR_NEWS = {
         reason:"三星3nm GAE经历2025年良率困境后已取得实质改善。",
         source:"The Elec/SamMobile",
         url:"https://theelec.kr/samsung-exynos-2600",
-        image:"assets/images/exynos-chip.jpg",
+        image:"assets/images/samsung-chip.jpg",
         imageCaption:"三星Exynos芯片", date:"2026-07-01"},
       {id:4, weight:"secondary", span:"narrow",
         title:"英特尔18A获AWS订单",
@@ -375,7 +375,7 @@ const SEMICONDUCTOR_NEWS = {
         reason:"英特尔18A采用RibbonFET+PowerVia双重创新，IFS商业化验证迈出关键一步。",
         source:"Intel/AnandTech",
         url:"https://www.intel.com/18a-aws",
-        image:"assets/images/semiconductor-fab.jpg",
+        image:"assets/images/circuit-board.jpg",
         imageCaption:"英特尔晶圆厂", date:"2026-06-30"},
       {id:5, weight:"secondary", span:"medium",
         title:"长鑫存储DDR5良率突破70%获模组厂验证通过",
@@ -384,7 +384,7 @@ const SEMICONDUCTOR_NEWS = {
         reason:"国产DDR5良率突破标志着存储国产替代进入实质放量阶段。",
         source:"集微网",
         url:"https://www.laoyaoba.com/cxmt-ddr5",
-        image:"assets/images/ddr-memory.jpg",
+        image:"assets/images/memory-ram.jpg",
         imageCaption:"长鑫存储晶圆", date:"2026-06-29"},
       {id:6, weight:"secondary", span:"narrow",
         title:"美光HBM4量产良率突破80%",
@@ -393,7 +393,7 @@ const SEMICONDUCTOR_NEWS = {
         reason:"HBM4是AI GPU标配内存，良率和产能决定AI芯片出货节奏。",
         source:"TechInsights",
         url:"https://www.techinsights.com/micron-hbm4",
-        image:"assets/images/ddr-memory.jpg",
+        image:"assets/images/cpu-chip.jpg",
         imageCaption:"美光HBM内存", date:"2026-06-28"}
     ],
     flash:[
@@ -451,7 +451,7 @@ const SEMICONDUCTOR_PAPER = {
       ],
       source:"VLSI Symposium 2026 / IEEE",
       url:"https://www.vlsisymposium.org/2026/session-4.2",
-      image:"assets/images/transistor.jpg",
+      image:"assets/images/transistor-research.jpg",
       imageCaption:"CFET三维堆叠结构",
       date:"2026-06-19",
       attachments:[
@@ -481,7 +481,7 @@ const SEMICONDUCTOR_PAPER = {
       ],
       source:"IEDM 2026 / IEEE",
       url:"https://www.ieee-iedm.org/2026/session-2.1",
-      image:"assets/images/semiconductor-fab.jpg",
+      image:"assets/images/chip-fab.jpg",
       imageCaption:"台积电2nm GAAFET纳米片结构",
       date:"2026-06-22",
       attachments:[
@@ -524,7 +524,7 @@ const SEMICONDUCTOR_PAPER = {
       ],
       source:"VLSI Symposium 2026 / IEEE",
       url:"https://www.vlsisymposium.org/2026/session-4.2",
-      image:"assets/images/transistor.jpg",
+      image:"assets/images/transistor-research.jpg",
       imageCaption:"CFET三维堆叠结构",
       date:"2026-06-19",
       attachments:[
