@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <title>每日技术晨报</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+SC:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== 粒子背景 ===== -->
+  <canvas id="bgCanvas"></canvas>
+
+  <!-- ===== 顶栏 ===== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container">
+      <div class="brand">
+        <div class="brand-icon">
+          <svg viewBox="0 0 40 40" width="36" height="36" fill="none">
+            <rect x="2" y="2" width="36" height="36" rx="8" stroke="url(#brandGrad)" stroke-width="2"/>
+            <path d="M12 20l6-6 4 4 6-6" stroke="url(#brandGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="26" cy="14" r="2" fill="#22d3ee"/>
+            <defs><linearGradient id="brandGrad" x1="0" y1="0" x2="40" y2="40">
+              <stop offset="0%" stop-color="#22d3ee"/><stop offset="100%" stop-color="#a78bfa"/>
+            </linearGradient></defs>
+          </svg>
+        </div>
+        <div>
+          <h1>每日技术晨报</h1>
+          <p class="brand-sub">Display · AI · 半导体 · 工作日自动推送</p>
+        </div>
+      </div>
+      <nav class="channel-tabs" id="channelTabs">
+        <button class="tab active" data-channel="display">
+          <span class="tab-icon">📺</span>
+          <span class="tab-label">面板显示</span>
+        </button>
+        <button class="tab" data-channel="ai">
+          <span class="tab-icon">🤖</span>
+          <span class="tab-label">AI动态</span>
+        </button>
+        <button class="tab" data-channel="semiconductor">
+          <span class="tab-icon">🔬</span>
+          <span class="tab-label">半导体器件</span>
+        </button>
+      </nav>
+    </div>
+    <!-- ===== 子Tab栏 ===== -->
+    <div class="subtab-bar" id="subtabBar">
+      <div class="container">
+        <nav class="subtab-nav" id="subtabNav"></nav>
+        <div class="date-selector">
+          <select id="dateSelect"></select>
+          <span class="weekday-tag" id="weekdayTag"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== 主内容 ===== -->
+  <main class="container" id="mainContent">
+    <div class="loading" id="loadingIndicator">
+      <div class="loader-ring"></div>
+      <span>正在加载数据...</span>
+    </div>
+    <div id="appContent"></div>
+  </main>
+
+  <!-- ===== 底部 ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span>📡 每日技术晨报</span>
+        </div>
+        <div class="footer-info">
+          <p>面板显示 · AI动态 · 半导体器件</p>
+          <p class="footer-sub">数据保留 14 天 · 由 AI 自动采集整理 · 来源均已标注</p>
+        </div>
+        <div class="footer-status">
+          <span class="status-dot"></span>
+          <span class="status-text">系统运行中</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
