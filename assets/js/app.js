@@ -14,9 +14,34 @@ function routeBadge(st){const c=st.includes('↑')?'up':st.includes('↓')?'down
 
 function getData(){
   const ch=CHANNELS[S.channel]; if(!ch)return null;
-  if(S.channel==='ai'&&S.subtab==='skills')return ch.data.skills[S.date]||null;
-  if(S.channel==='ai')return ch.data.news[S.date]||null;
-  const dt=ch.data[S.subtab]; return dt?dt[S.date]||null:null;
+  
+  // 先尝试加载外部 JSON 文件（cron job 生成的真实数据）
+  // 频道和子Tab决定 JSON 路径
+  let jsonPath='';
+  if(S.channel==='ai'){
+    if(S.subtab==='skills') jsonPath='data/ai/skills/'+S.date+'.json';
+    else jsonPath='data/ai/news/'+S.date+'.json';
+  } else if(S.subtab==='news'){
+    jsonPath='data/'+S.channel+'/news/'+S.date+'.json';
+  } else {
+    jsonPath='data/'+S.channel+'/paper/'+S.date+'.json';
+  }
+  return jsonPath;
+}
+
+// 异步加载数据
+async function loadData(){
+  const path=getData();
+  if(!path)return null;
+  try{
+    const resp=await fetch(path);
+    if(resp.ok) return await resp.json();
+  }catch(e){/* fallback to embedded */}
+  // 回退到嵌入的 demo 数据
+  if(S.channel==='ai'&&S.subtab==='skills') return CHANNELS.ai.data.skills[S.date]||null;
+  if(S.channel==='ai') return CHANNELS.ai.data.news[S.date]||null;
+  const dt=CHANNELS[S.channel].data[S.subtab];
+  return dt?dt[S.date]||null:null;
 }
 
 function getAvailableDates(){
@@ -216,10 +241,10 @@ function renderAISkills(data){
 }
 
 /* ===== 5. 主渲染 ===== */
-function render(){
+async function render(){
   const ct=document.getElementById('appContent'),ld=document.getElementById('loadingIndicator');
   if(!ct)return;
-  const data=getData();
+  const data=await loadData();
   ld.style.display='none';
   if(!data){
     ct.innerHTML=`<div style="text-align:center;padding:60px 20px;color:var(--text3);border:1px solid var(--border);border-radius:var(--radius-lg);font-size:14px;background:#fff">⚠️ ${S.date} 暂无${S.subtab==='skills'?'Skill推荐':S.subtab==='news'?'新闻':'论文'}数据</div>`;
