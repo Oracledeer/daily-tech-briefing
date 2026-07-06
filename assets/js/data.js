@@ -50,7 +50,7 @@ const DISPLAY_NEWS = {
         event:"三星显示已正式确认牙山A4产线扩产计划，追加15,000片/月玻璃基板柔性OLED产能，总投资约25亿美元。2027年底前完成。",
         reason:"15K/月Gen 6产能对应约数百万部折叠手机面板，将巩固韩系在折叠OLED领域的绝对优势。",
         source:"OLED-Info/Digitimes", url:"https://www.oled-info.com/samsung-display-a4-line",
-        image:"assets/images/phone-fold.jpg",
+        image:"assets/images/oled-factory2.jpg",
         imageCaption:"三星显示A4线扩产示意", date:"2026-07-02"},
 
       {id:4, weight:"secondary", span:"narrow",
@@ -309,7 +309,7 @@ const AI_NEWS = {
         reason:"硬件+数据+模型三件套同时进入工程化阶段，VLA路线小模型+大数据+物理先验成为新方向。",
         source:"艾邦机器人/字节Seed",
         url:"https://www.aibangbots.com/a/6824",
-        image:"assets/images/robot-ai.jpg",
+        image:"assets/images/oled-factory.jpg",
         imageCaption:"灵巧手机器人", date:"2026-06-29"}
     ],
     skills:[
@@ -375,7 +375,7 @@ const SEMICONDUCTOR_NEWS = {
         reason:"英特尔18A采用RibbonFET+PowerVia双重创新，IFS商业化验证迈出关键一步。",
         source:"Intel/AnandTech",
         url:"https://www.intel.com/18a-aws",
-        image:"assets/images/circuit-board.jpg",
+        image:"assets/images/cpu-chip.jpg",
         imageCaption:"英特尔晶圆厂", date:"2026-06-30"},
       {id:5, weight:"secondary", span:"medium",
         title:"长鑫存储DDR5良率突破70%获模组厂验证通过",
@@ -393,7 +393,7 @@ const SEMICONDUCTOR_NEWS = {
         reason:"HBM4是AI GPU标配内存，良率和产能决定AI芯片出货节奏。",
         source:"TechInsights",
         url:"https://www.techinsights.com/micron-hbm4",
-        image:"assets/images/cpu-chip.jpg",
+        image:"assets/images/transistor.jpg",
         imageCaption:"美光HBM内存", date:"2026-06-28"}
     ],
     flash:[
@@ -450,8 +450,7 @@ const SEMICONDUCTOR_PAPER = {
         {name:"EOT",value:"0.85",unit:"nm",note:""}
       ],
       source:"VLSI Symposium 2026 / IEEE",
-      url:"https://www.vlsisymposium.org/2026/session-4.2",
-      image:"assets/images/transistor-research.jpg",
+      image:"assets/images/micro-led.jpg",
       imageCaption:"CFET三维堆叠结构",
       date:"2026-06-19",
       attachments:[
@@ -480,8 +479,7 @@ const SEMICONDUCTOR_PAPER = {
         {name:"驱动电流提升",value:"35",unit:"%",note:"vs N3E"}
       ],
       source:"IEDM 2026 / IEEE",
-      url:"https://www.ieee-iedm.org/2026/session-2.1",
-      image:"assets/images/chip-fab.jpg",
+      image:"assets/images/foldable-phone.jpg",
       imageCaption:"台积电2nm GAAFET纳米片结构",
       date:"2026-06-22",
       attachments:[
@@ -523,8 +521,7 @@ const SEMICONDUCTOR_PAPER = {
         {name:"Lg",value:"16",unit:"nm",note:""}
       ],
       source:"VLSI Symposium 2026 / IEEE",
-      url:"https://www.vlsisymposium.org/2026/session-4.2",
-      image:"assets/images/transistor-research.jpg",
+      image:"assets/images/datacenter.jpg",
       imageCaption:"CFET三维堆叠结构",
       date:"2026-06-19",
       attachments:[
