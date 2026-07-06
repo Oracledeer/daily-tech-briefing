@@ -43,11 +43,33 @@ function renderNews(data){
     html+=`<section class="route-section animate-in"><h2>📊 技术路线动态</h2><div class="route-grid">${data.routes.map(r=>`<div class="route-card"><div class="route-name">${routeBadge(r.status)} ${esc(r.name)}</div><div class="route-note">${esc(r.note||'')}</div></div>`).join('')}</div></section>`;
   }
 
-  // 杂志网格
+  // ——— 杂志网格 ———
+  // 智能排版：每行6列，不出现空白
+  const pattern6=[ [4,2],[2,4],[3,3],[2,2,2] ];
+  // 根据剩余条目数量选择最合适的pattern组合
+  function rowPatterns(total){
+    const res=[];
+    let rem=total;
+    // 优先策略：尽可能让最后一行不留白
+    while(rem>0){
+      let picked=null;
+      for(const p of pattern6){
+        if(p.length<=rem){picked=p;break;}
+      }
+      if(!picked)picked=pattern6[pattern6.length-1];// fallback
+      res.push(picked);
+      rem-=picked.length;
+    }
+    return res;
+  }
+
+  const heavys=items.filter(i=>i.weight==='heavy');
+  const seclist=items.filter(i=>i.weight==='secondary');
+
   html+=`<div class="magazine-grid">`;
 
   // 重磅 (span6)
-  items.filter(i=>i.weight==='heavy').forEach(item=>{
+  heavys.forEach(item=>{
     const im=item.image
       ?`<img src="${esc(item.image)}" alt="${esc(item.imageCaption||item.title)}" loading="lazy">${item.imageCaption?`<div class="img-caption">${esc(item.imageCaption)}</div>`:''}`
       :`<div class="img-fallback">📰</div>`;
@@ -64,31 +86,45 @@ function renderNews(data){
     </article>`;
   });
 
-  // 次重点（不等宽：wide/medium/narrow）
-  const seclist=items.filter(i=>i.weight==='secondary');
-  // 交替排布避免呆板: 尝试 wide→narrow→medium→narrow→medium→wide...
-  const spanOrder=seclist.map((item,i)=>{
-    if(item.span)return item.span;
-    // 自动交替
-    const pattern=['wide','narrow','medium','narrow','medium','wide','narrow','medium'];
-    return pattern[i%pattern.length];
-  });
-  seclist.forEach((item,i)=>{
-    const sp=spanOrder[i];
-    const im=item.image
-     ?`<img src="${esc(item.image)}" alt="${esc(item.imageCaption||item.title)}" loading="lazy">${item.imageCaption?`<div class="img-caption">${esc(item.imageCaption)}</div>`:''}`
-      :`<div class="img-fallback">📰</div>`;
-    html+=`<article class="news-card secondary ${sp} animate-in">
-      <div class="card-image-wrap">${im}</div>
-      <div class="card-body">
-        <div class="card-tags">${item.route?routeBadge(item.route):''}<span class="tag tag-cat">${esc(item.category||'')}</span></div>
-        <h3 class="card-title">${esc(item.title)}</h3>
-        <div class="card-event">${esc(item.event||'')}</div>
-        <div class="card-footer"><span>📰 ${esc(item.source||'')}</span><span>${item.date||''}</span></div>
-        ${item.url?`<a class="card-link" href="${esc(item.url)}" target="_blank">查看原文</a>`:''}
-      </div>
-    </article>`;
-  });
+  // 次重点 — 智能行分组
+  const rows=rowPatterns(seclist.length);
+  let idx=0;
+  for(const row of rows){
+    // 这一行每列的span
+    // 可选的span分配策略：交替避免相邻行重复
+    // 按行索引轮换风格
+    const rowIdx=rows.indexOf(row);
+    const styleIdx=rowIdx%3;// 0,1,2轮换
+    let spans;
+    if(row.length===2){
+      if(styleIdx===0)spans=[4,2];
+      else if(styleIdx===1)spans=[2,4];
+      else spans=[3,3];
+    }else{// row.length===3
+      spans=[2,2,2];
+    }
+    // 截断spans到row长度
+    const actualSpans=spans.slice(0,row.length);
+    for(let j=0;j<row.length;j++){
+      const item=seclist[idx++];
+      if(!item)break;
+      const sp=actualSpans[j];
+      const spanClass=sp===4?'wide':sp===3?'medium':'narrow';
+      const im=item.image
+        ?`<img src="${esc(item.image)}" alt="${esc(item.imageCaption||item.title)}" loading="lazy">${item.imageCaption?`<div class="img-caption">${esc(item.imageCaption)}</div>`:''}`
+        :`<div class="img-fallback">📰</div>`;
+      html+=`<article class="news-card secondary ${spanClass} animate-in">
+        <div class="card-image-wrap">${im}</div>
+        <div class="card-body">
+          <div class="card-tags">${item.route?routeBadge(item.route):''}<span class="tag tag-cat">${esc(item.category||'')}</span></div>
+          <h3 class="card-title">${esc(item.title)}</h3>
+          <div class="card-event">${esc(item.event||'')}</div>
+          <div class="card-footer"><span>📰 ${esc(item.source||'')}</span><span>${item.date||''}</span></div>
+          ${item.url?`<a class="card-link" href="${esc(item.url)}" target="_blank">查看原文</a>`:''}
+        </div>
+      </article>`;
+    }
+  }
 
   html+=`</div>`; // close magazine-grid
 
